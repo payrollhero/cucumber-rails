@@ -27,7 +27,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('nokogiri', '~> 1.10') # Only support the latest major (3+ years old)
   s.add_runtime_dependency('railties', ['>= 5.0', '< 8']) # We support any version of Rails in the 5.x, 6.x and 7.x series
   s.add_runtime_dependency('rexml', '~> 3.0') # rexml is a bundled gem from ruby 3
-  s.add_runtime_dependency('webrick', '~> 1.7') # webrick is a bundled gem from ruby 3
 
   # Main development dependencies
   s.add_development_dependency('ammeter', '>= 1.1.4')
